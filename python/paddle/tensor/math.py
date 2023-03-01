@@ -5091,3 +5091,9 @@ def frexp(x, name=None):
 
     mantissa = paddle.where((x < 0), mantissa * -1, mantissa)
     return mantissa, exponent
+
+def i0(x):
+    return NotImplementedError
+
+def i0e(x):
+    return NotImplementedError
